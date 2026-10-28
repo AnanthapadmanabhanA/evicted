@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+
+# Never commit real captures, tokens, or reports by accident
+*.json
+!tests/**/*.json
+reports/
+secrets*
